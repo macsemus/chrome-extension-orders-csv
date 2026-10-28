@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Выгрузка заказов в CSV",
+  "version": "1.0.0",
+  "description": "Собирает заказы со всех страниц таблицы и сохраняет их в CSV.",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "action": {
+    "default_title": "Выгрузка заказов",
+    "default_popup": "popup.html"
+  }
+}
